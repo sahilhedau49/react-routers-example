@@ -1,13 +1,17 @@
-import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./components/Home";
+import Connect from "./components/Connect";
+import About from "./components/About";
+import Contact from "./components/Contact";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<div>Home Page</div>} />
-        <Route path="/about" element={<h2>About Me!</h2>} />
-        <Route path="/contact" element={<h2>Contact Me!</h2>} />
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/connect" element={<Connect />} />
       </Routes>
     </BrowserRouter>
   );
