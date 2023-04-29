@@ -1,7 +1,11 @@
 import React from "react";
 
 const Connect = () => {
-  return <div>Connect</div>;
+  return (
+    <div>
+      <h1 className="my-8 text-2xl font-bold">Welcome to connect page.</h1>
+    </div>
+  );
 };
 
 export default Connect;
