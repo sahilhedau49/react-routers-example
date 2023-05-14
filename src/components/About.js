@@ -5,7 +5,7 @@ const About = () => {
   const navigate = useNavigate();
 
   const gotohome = () => {
-    navigate("/connect");
+    navigate("/");
   };
 
   return (
@@ -15,7 +15,7 @@ const About = () => {
         onClick={() => gotohome()}
         className="px-4 py-2 border-2 rounded-2xl border-cyan-600"
       >
-        Go To Connect Page
+        Go To Home Page
       </button>
     </div>
   );
